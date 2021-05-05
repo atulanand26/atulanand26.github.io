@@ -2,6 +2,9 @@
 {
     background-color: rgb(50, 117, 67);
     padding: 1%;
+    size: 100%;
+    margin-right: inherit;
+    margin-left: inherit;
 }
 body
 {
