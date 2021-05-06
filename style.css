@@ -1,22 +1,35 @@
 .footer
 {
-    background-color: rgb(50, 117, 67);
+    text-align: center;
+    background-color: rgb(55, 131, 74);
     padding: 1%;
-    size: 100%;
-    margin-right: inherit;
-    margin-left: inherit;
+    width: 98%;
 }
+
 body
 {
     font-family:'arial';
+    background-color: rgb(157, 218, 241);
+    text-align: center;
+
 }
+
 .uni
 {
     font-family: 'Times New Roman';
     font-weight: 500;
 }
+
 .title
 {
     font-family: fantasy;
-    font-weight: 900;
+    font-weight: bolder;
+}
+
+.dotted
+{
+    background-color: rgb(157, 218, 241);
+    border-style: dotted none none none;
+    border-width: thick;
+    width: 12%;
 }
