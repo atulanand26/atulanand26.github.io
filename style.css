@@ -4,7 +4,7 @@
     background-color: #000000;
     color: blueviolet;
     padding: 1%;
-    width: 100%;
+    width: 98%;
 }
 
 body
@@ -34,4 +34,21 @@ body
     border-style: dotted none none none;
     border-width: thick;
     width: 10%;
+}
+h1
+{
+    font-size: 70px;
+    font-family: serif;
+}
+h3
+{
+    font-size: 40px;
+    font-family: serif;
+    color: orange;
+}
+h4
+{
+    font-size: 40px;
+    font-family: serif;
+    color: orange;
 }
