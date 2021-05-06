@@ -9,7 +9,8 @@
 body
 {
     font-family:'arial';
-    background-color: rgb(157, 218, 241);
+    background-color: black;
+    color: white;
     text-align: center;
 
 }
@@ -24,11 +25,12 @@ body
 {
     font-family: fantasy;
     font-weight: bolder;
+    color: tomato;
 }
 
 .dotted
 {
-    background-color: rgb(157, 218, 241);
+    background-color: black;
     border-style: dotted none none none;
     border-width: thick;
     width: 12%;
