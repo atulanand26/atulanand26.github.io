@@ -1,0 +1,63 @@
+body 
+{
+    background-color: rgb(255, 254, 213);
+    text-align:center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.margin
+{
+    margin: 0;
+}
+
+h1
+{
+    margin: 0px;
+    position: relative;
+    font-size: 60px;
+
+}
+
+.cloud1
+{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+.cloud2
+{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.div1
+{
+    background-color: rgb(118, 203, 252);
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+.div2
+{
+    width: 100%;
+    height: 625px;
+    background-color: rgb(107, 132, 155)
+}
+.image1
+{
+    position: absolute;
+    left: 125px;
+    top: 200px;
+    width: 200px;
+}
+.inc-size
+{
+    font-size: 110px;
+}
+.Text-allignment
+{
+    position: relative;
+    top: 30px;
+
+}
