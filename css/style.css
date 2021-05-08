@@ -1,22 +1,20 @@
 body 
 {
-    background-color: rgb(255, 254, 213);
+    background-color: rgb(187, 230, 255);
     text-align:center;
     margin: 0;
 }
 
-
 h1
 {
     margin: 0px;
-    font-size: 40px;
-    font-family: 'Xanh Mono', monospace;
-
+    font-size: 50px;
 }
 
 h2
 {
     font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
 }
 
 h3
@@ -30,13 +28,13 @@ h3
     margin-top: 0%;
     right: 15%;
 }
+
 .cloud2
 {
     position: relative;
     margin-top: 0% ;
     left: 15%;
 }
-
 
 .fixed-logo
 {
@@ -54,28 +52,23 @@ h3
 
 .top-container
 {
-    background-color: rgb(167, 222, 253);
     padding-top: 100px;
     width: 100%;
     height: fit-content;
     padding-bottom: 80px;
 }
-.middle-container
-{
-    width: 100%;
-    
-}
+
 
 .inc-size
 {
-    font-size: 150%;
+    font-size: 160%;
     margin-top: 0;
 }
 
 .image1
 {
-    margin-top:  2%;
-    width: 30%;
+    margin-top: 2%;
+    width: 35%;
 }
 
 .text-allignment
@@ -84,9 +77,54 @@ h3
     margin-top: 2%
 
 }
+
 .heading
 {
     position: relative;
     top: 10px;
     bottom: 10px;
+}
+
+.second-container
+{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    height: fit-content;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dotted
+{
+    border-style: dotted none none none;
+    border-width: medium;
+    width: 60%;
+}
+
+.padding
+{
+    padding: 5% 5% 10% 5%;
+}
+
+.edu1
+{
+    width: 60%;
+    margin-left: 20%;
+    height: 200px;
+}
+
+.float
+{
+    width: 150px;
+    height:150px;
+    float: left;
+}
+
+.edu-text
+{
+    position: relative;
+    top: 15%;
+    left: 2%;
 }
