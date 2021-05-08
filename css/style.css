@@ -26,14 +26,14 @@ h3
 
 .cloud1
 {
-    position: absolute;
-    top: 20%;
+    position: relative;
+    margin-top: 0%;
     right: 15%;
 }
 .cloud2
 {
-    position: absolute;
-    top: 20%;
+    position: relative;
+    margin-top: 0% ;
     left: 15%;
 }
 
@@ -74,14 +74,15 @@ h3
 
 .image1
 {
-    padding-top: 20px;
+    margin-top:  2%;
     width: 30%;
 }
 
 .text-allignment
 {
     position: relative;
-    padding-top: 12%;
+    margin-top: 2%
+
 }
 .heading
 {
