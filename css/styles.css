@@ -1,0 +1,52 @@
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title {
+  background-color: rgb(240, 80, 80);
+}
+
+.padding
+{
+    padding: 5rem 15% 0 15%;
+}
+
+.nav-item
+{
+    padding: 0 15px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+}
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-image
+{
+    width: 50%;
+    transform: rotate(25deg);
+}
+
+#title
+{
+    overflow: hidden;
+    height: fit-content;
+}
+
+.enlarge-center
+{
+    text-align: center;
+}
+
+#features
+{
+    padding: 7% 7%;
+}
