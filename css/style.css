@@ -1,0 +1,189 @@
+body 
+{
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    margin: 0;
+}
+
+h1
+{
+    margin: 0px;
+    font-size: 50px;
+}
+
+h2
+{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+}
+
+h3
+{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.cloud1
+{
+    position: relative;
+    margin-top: 0%;
+    right: 15%;
+}
+
+.cloud2
+{
+    position: relative;
+    margin-top: 0% ;
+    left: 15%;
+}
+
+
+.top-container
+{
+    padding-top: 100px;
+    background-color: rgb(187, 230, 255);
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 80px;
+}
+
+.inc-size
+{
+    font-size: 160%;
+    margin-top: 0;
+}
+
+.image1
+{
+    margin-top: 2%;
+    width: 35%;
+}
+
+.text-allignment
+{
+    position: relative;
+    margin-top: 2%
+
+}
+
+.fixed-logo
+{
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    font-size: 30px;
+    color: cornsilk;
+    font-family: initial;
+    position: fixed;
+    z-index: 1;
+    height: 50px;
+
+}
+
+.heading
+{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+
+.second-container
+{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    height: fit-content;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dotted
+{
+    border-style: dotted none none none;
+    border-width: medium;
+    width: 60%;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-gap: 3%;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+
+.grid-item {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.2%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+  width: 40%;
+  height: 42%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+
+
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 60em) 
+{
+
+  .grid {
+    grid-gap: 3rem;
+    }
+}
