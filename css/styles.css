@@ -1,0 +1,116 @@
+/* **************************************************************Elements************************************************************** */
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+}
+
+/* **************************************************************Classes************************************************************** */
+
+.stick-to-top
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-image {
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 20%;
+}
+
+.padding-features {
+  padding: 5% 10% 5% 10%;
+}
+
+.icon-mod {
+  padding-bottom: 1rem;
+  color: rgb(247, 134, 134);
+}
+
+.icon-mod:hover {
+  color: rgb(240, 80, 80);
+}
+
+.light-weight {
+  color: grey;
+}
+
+.testimonial-item {
+  padding: 5% 15%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 2% 5% 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* **************************************************************IDs************************************************************** */
+
+#title {
+  overflow: hidden;
+  padding: 10% 15% 0 15%;
+  background-color: rgb(255, 97, 97);
+  height: fit-content;
+}
+
+#features {
+  padding: 4% 5%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: rgb(255, 97, 97);
+}
+
+.testimonial-img {
+  width: 18%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: rgb(255, 97, 97);
+}
+
+#pricing {
+  margin-top: 5%;
+  padding: 2% 5% 2% 6%;
+}
+
+#cta {
+  background-color: rgb(255, 97, 97);
+  padding: 10% 4% 10% 4%;
+}
