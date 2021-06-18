@@ -62,34 +62,34 @@ h2 {
 
 @media screen and (min-width:638px) and (max-width: 1020px) {
 
-h1 {
-    font-size: 200%;
-}
-h2 {
-    font-size: 200%;
-}
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 200%;
+    }
 
 }
 
 
 @media screen and (max-width: 640px) {
 
-.images {
-    position: relative;
-    width: 100%;
-}
+    .images {
+        position: relative;
+        width: 100%;
+    }
 
-.cylinder {
-    position: relative;
-}
+    .cylinder {
+        position: relative;
+    }
 
-.cylinder1 {
-    width: 81%;
-    text-align: center;
-}
+    .cylinder1 {
+        width: 81%;
+        text-align: center;
+    }
 
-.cylinder2 {
-    width: 85%;
-}
+    .cylinder2 {
+        width: 85%;
+    }
     
 }
