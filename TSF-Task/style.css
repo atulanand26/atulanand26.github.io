@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: whitesmoke;
     font-family: 'Roboto Slab', serif;
+    background-color: black;
 }
 
 p {
@@ -9,11 +10,11 @@ p {
 }
 
 h1 {
-    font-size: 500%;
+    font-size: 300%;
 }
 
 h2 {
-    font-size: 350%;
+    font-size: 300%;
 }
 
 .images {
@@ -23,6 +24,9 @@ h2 {
     z-index: -1;
 }
 
+.cylinder {
+    position: absolute;
+}
 
 .cylinder1 {
     padding-top: 5%;
@@ -44,4 +48,48 @@ h2 {
 .cutter {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px; 
+    background-color: #000000;
+    text-align: center;
+}
+
+@media screen and (min-width:638px) and (max-width: 1020px) {
+
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 200%;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+.images {
+    position: relative;
+    width: 100%;
+}
+
+.cylinder {
+    position: relative;
+}
+
+.cylinder1 {
+    width: 81%;
+    text-align: center;
+}
+
+.cylinder2 {
+    width: 85%;
+}
+    
 }
