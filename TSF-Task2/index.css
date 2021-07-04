@@ -1,0 +1,24 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.container1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    margin-left: 4%;
+}
+
+.container2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
